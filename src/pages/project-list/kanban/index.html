@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project List</title>
+  <link rel="stylesheet" href="../../../style/output.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+  <div class="flex">
+    <aside class="w-[14%] bg-gray-200 h-screen px-2 py-2 flex flex-col justify-between">
+      <div>
+        <h5 class="mb-4 text-sm"><i class="bi bi-grid-3x3-gap"></i> Apps</h5>
+        <p class=" mb-1 text-xs">Workspace</p>
+        <div class="bg-blue-300 rounded-md">
+          <h5 class="mb-4 ml-2 py-0.5 text-sm">My Workspace</h5>
+        </div>
+
+        <p class="mb-1 text-xs">Menu</p>
+        <div class="bg-blue-300 rounded-md">
+          <h5 class="ml-2 py-0.5 text-sm"><i class="bi bi-archive-fill"></i> Project</h5>
+        </div>
+        <div>
+          <h5 class="mb-4 ml-2 py-0.5 text-sm"><i class="bi bi-journal-text"></i> Lesson Learned</h5>
+        </div>
+      
+        <p class=" mb-1 text-xs">Master Data</p>
+        <div>
+          <h5 class="ml-2 py-0.5 text-sm"><i class="bi bi-question-square"></i> Status</h5>        
+        </div>
+        <div>
+          <h5 class="ml-2 py-0.5 text-sm"><i class="bi bi-wrench"></i> Material</h5>
+        </div>
+        <div>
+          <h5 class="mb-4 ml-2 py-0.5 text-sm"><i class="bi bi-ui-radios"></i> Project Type</h5>
+        </div>
+      </div>
+
+      <div class="w-full flex justify-between items-center">
+        <div class="flex gap-1 items-center">
+          <i class="bi bi-stop-circle-fill text-blue-500 text-xl"></i>
+          <h4> Elang Rimba Jaya</h4>
+        </div>
+        <button type="'button" class="mt-1"><i class="bi bi-caret-left-square"></i></button>        
+      </div>      
+    </aside>    
+    
+    <main class="w-[86%] p-4">
+      <h1 class="mb-4">Projects</h1>
+      <section id="buttons" class="flex justify-between mb-4">
+        <div class="flex gap-1">
+          <a href="#" class="p-1 text-sm bg-blue-300 border border-blue-300 rounded">
+            <i class="bi bi-plus-lg"></i> New Project
+          </a>
+          <a href="#" class="p-1 text-sm border border-blue-300 rounded">
+            <i class="bi bi-filetype-xls"></i> Export to XLS
+          </a>
+          <a href="#" class="p-1 text-sm border border-blue-300 rounded">
+            <i class="bi bi-filetype-csv"></i> Export to CSV
+          </a>
+        </div>
+
+        <div class="flex gap-1">
+          <div class="flex w-48">
+            <input type="search" class="w-full p-1 text-sm bg-gray-200">
+            <button class="bg-blue-400 w-8"><i class="bi bi-search"></i></button>
+          </div>
+          <a href="#" class="py-1 px-2 text-sm border border-blue-300 rounded">
+            <i class="bi bi-gear"></i>
+          </a>
+          <div class="flex">
+            <a href="#" class="py-1 px-2 text-sm border border-blue-300">
+              <i class="bi bi-card-text"></i>
+            </a>
+            <a href="#" class="py-1 px-2 text-sm border border-blue-300">
+              <i class="bi bi-kanban"></i>
+            </a>            
+          </div>
+        </div>
+      </section>
+
+      <section id="kanban">
+        <div class="flex overflow-x-auto gap-4">
+
+          <!-- Item 1 -->
+          <div>
+            <div class="w-64 p-2 bg-gray-200 rounded">
+              <!-- Status Kanban -->
+              <div class="mb-4 flex items-center justify-between">
+                <div class="flex gap-2">
+                  <h3 class="font-semibold text-lg ml-2">Implementasi</h3>
+                  <p class="px-2 border border-gray-400 rounded text-sm pt-0.5 font-semibold">1</p>
+                </div>
+                <i class="bi bi-three-dots mr-4"></i>
+              </div>
+              <!-- Items Kanban -->
+              <div>
+                <div class="flex bg-white border border-gray-300 rounded-md">
+                  <div class="w-full py-1 px-2">
+                    <p class="font-semibold">Pengadaan Konstruksi Renovasi Rumah Dinas KPP Pratama Sintang</p>
+                    <div class="grid grid-cols-2">
+                      <div class="flex items-center">
+                        <i class="bi bi-people-fill mr-0.5 text-sm text-gray-500"></i>
+                        <h3 class="font-bold mb-1 text-gray-500">-</h3>
+                      </div>
+                      <div class="flex items-center">
+                        <i class="bi bi-calendar mr-0.5 text-sm text-gray-500"></i>
+                        <h3 class="font-bold mb-1 text-gray-500">-</h3>
+                      </div>
+                    </div>
+                  </div>
+                  <i class="bi bi-three-dots mr-2"></i>
+                </div>
+                <div class="flex mt-5">
+                  <a href="#" class="w-full p-1 text-sm text-blue-400 font-semibold border-2 border-blue-300 rounded">
+                    <i class="bi bi-plus-lg"></i> New Project
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <!-- Item 2 -->
+          <div>
+            <div class="w-64 p-2 bg-gray-200 rounded">
+              <!-- Status Kanban -->
+              <div class="mb-4 flex items-center justify-between">
+                <div class="flex gap-2">
+                  <h3 class="font-semibold text-lg ml-2">Uji Fungsi</h3>
+                  <p class="px-2 border border-gray-400 rounded text-sm pt-0.5 font-semibold">1</p>
+                </div>
+                <i class="bi bi-three-dots mr-4"></i>
+              </div>
+              <!-- Items Kanban -->
+              <div>
+                <div class="flex bg-white border border-gray-300 rounded-md">
+                  <div class="w-full py-1 px-2">
+                    <p class="font-semibold">Pembangunan Reservoir SPAM Kota Manado (NUWSP)</p>
+                    <div class="grid grid-cols-2">
+                      <div class="flex items-center">
+                        <i class="bi bi-people-fill mr-0.5 text-sm text-gray-500"></i>
+                        <h3 class="font-bold mb-1 text-gray-500">-</h3>
+                      </div>
+                      <div class="flex items-center">
+                        <i class="bi bi-calendar mr-0.5 text-sm text-gray-500"></i>
+                        <h3 class="font-bold mb-1 text-gray-500">-</h3>
+                      </div>
+                    </div>
+                  </div>
+                  <i class="bi bi-three-dots mr-2"></i>
+                </div>
+                <div class="flex mt-5">
+                  <a href="#" class="w-full p-1 text-sm text-blue-400 font-semibold border-2 border-blue-300 rounded">
+                    <i class="bi bi-plus-lg"></i> New Project
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>      
+  
+          <!-- Item 3 -->
+          <div>
+            <div class="w-64 p-2 bg-gray-200 rounded">
+              <!-- Status Kanban -->
+              <div class="mb-4 flex items-center justify-between">
+                <div class="flex gap-2">
+                  <h3 class="font-semibold text-lg ml-2">Selesai</h3>
+                  <p class="px-2 border border-gray-400 rounded text-sm pt-0.5 font-semibold">0</p>
+                </div>
+                <i class="bi bi-three-dots mr-4"></i>
+              </div>
+              <div>
+                <div class="flex mt-5">
+                  <a href="#" class="w-full p-1 text-sm text-blue-400 font-semibold border-2 border-blue-300 rounded">
+                    <i class="bi bi-plus-lg"></i> New Project
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <!-- Item 4 -->
+          <div>
+            <div class="w-64 p-2 bg-gray-200 rounded">
+              <!-- Status Kanban -->
+              <div class="mb-4 flex items-center justify-between">
+                <div class="flex gap-2">
+                  <h3 class="font-semibold text-lg ml-2">Pemeliharaan</h3>
+                  <p class="px-2 border border-gray-400 rounded text-sm pt-0.5 font-semibold">2</p>
+                </div>
+                <i class="bi bi-three-dots mr-4"></i>
+              </div>
+              <!-- Items Kanban -->
+              <div>
+                <div class="flex bg-white border border-gray-300 rounded-md">
+                  <div class="w-full py-1 px-2">
+                    <p class="font-semibold">Pembangunan Reservoir SPAM Kota Manado (NUWSP)</p>
+                    <div class="grid grid-cols-2">
+                      <div class="flex items-center">
+                        <i class="bi bi-people-fill mr-0.5 text-sm text-gray-500"></i>
+                        <h3 class="font-bold mb-1 text-gray-500">-</h3>
+                      </div>
+                      <div class="flex items-center">
+                        <i class="bi bi-calendar mr-0.5 text-sm text-gray-500"></i>
+                        <h3 class="font-bold mb-1 text-gray-500">-</h3>
+                      </div>
+                    </div>
+                  </div>
+                  <i class="bi bi-three-dots mr-2"></i>
+                </div>
+                <div class="flex bg-white border border-gray-300 rounded-md mt-4">
+                  <div class="w-full py-1 px-2">
+                    <p class="font-semibold">Pembangunan Reservoir SPAM Kota Manado (NUWSP)</p>
+                    <div class="grid grid-cols-2">
+                      <div class="flex items-center">
+                        <i class="bi bi-people-fill mr-0.5 text-sm text-gray-500"></i>
+                        <h3 class="font-bold mb-1 text-gray-500">-</h3>
+                      </div>
+                      <div class="flex items-center">
+                        <i class="bi bi-calendar mr-0.5 text-sm text-gray-500"></i>
+                        <h3 class="font-bold mb-1 text-gray-500">-</h3>
+                      </div>
+                    </div>
+                  </div>
+                  <i class="bi bi-three-dots mr-2"></i>
+                </div>
+                <div class="flex mt-5">
+                  <a href="#" class="w-full p-1 text-sm text-blue-400 font-semibold border-2 border-blue-300 rounded">
+                    <i class="bi bi-plus-lg"></i> New Project
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <!-- Item 5 -->
+          <div>
+            <div class="w-64 p-2 bg-gray-200 rounded">
+              <!-- Status Kanban -->
+              <div class="mb-4 flex items-center justify-between">
+                <div class="flex gap-2">
+                  <h3 class="font-semibold text-lg ml-2">Implementasi</h3>
+                  <p class="px-2 border border-gray-400 rounded text-sm pt-0.5 font-semibold">1</p>
+                </div>
+                <i class="bi bi-three-dots mr-4"></i>
+              </div>
+              <!-- Items Kanban -->
+              <div>
+                <div class="flex bg-white border border-gray-300 rounded-md">
+                  <div class="w-full py-1 px-2">
+                    <p class="font-semibold">Pengadaan Konstruksi Renovasi Rumah Dinas KPP Pratama Sintang</p>
+                    <div class="grid grid-cols-2">
+                      <div class="flex items-center">
+                        <i class="bi bi-people-fill mr-0.5 text-sm text-gray-500"></i>
+                        <h3 class="font-bold mb-1 text-gray-500">-</h3>
+                      </div>
+                      <div class="flex items-center">
+                        <i class="bi bi-calendar mr-0.5 text-sm text-gray-500"></i>
+                        <h3 class="font-bold mb-1 text-gray-500">-</h3>
+                      </div>
+                    </div>
+                  </div>
+                  <i class="bi bi-three-dots mr-2"></i>
+                </div>
+                <div class="flex mt-5">
+                  <a href="#" class="w-full p-1 text-sm text-blue-400 font-semibold border-2 border-blue-300 rounded">
+                    <i class="bi bi-plus-lg"></i> New Project
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+    </main>
+  </div>
+</body>
+</html>
