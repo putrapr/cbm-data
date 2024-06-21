@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project List</title>
+  <link rel="stylesheet" href="../../style/output.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+  <div class="flex">
+    <aside class="w-[14%]">
+      <div class="w-[14%] h-screen fixed flex flex-col justify-between bg-gray-200 px-2 py-2">
+        <div>
+          <h5 class="mb-4 text-sm"><i class="bi bi-grid-3x3-gap"></i> Apps</h5>
+          <p class=" mb-1 text-xs">Workspace</p>
+          <div class="bg-blue-300 rounded-md">
+            <h5 class="mb-4 ml-2 py-0.5 text-sm">My Workspace</h5>
+          </div>
+  
+          <p class="mb-1 text-xs">Menu</p>
+          <div class="bg-blue-300 rounded-md">
+            <h5 class="ml-2 py-0.5 text-sm"><i class="bi bi-archive-fill"></i> Project</h5>
+          </div>
+          <div>
+            <h5 class="mb-4 ml-2 py-0.5 text-sm"><i class="bi bi-journal-text"></i> Lesson Learned</h5>
+          </div>
+        
+          <p class=" mb-1 text-xs">Master Data</p>
+          <div>
+            <h5 class="ml-2 py-0.5 text-sm"><i class="bi bi-question-square"></i> Status</h5>        
+          </div>
+          <div>
+            <h5 class="ml-2 py-0.5 text-sm"><i class="bi bi-wrench"></i> Material</h5>
+          </div>
+          <div>
+            <h5 class="mb-4 ml-2 py-0.5 text-sm"><i class="bi bi-ui-radios"></i> Project Type</h5>
+          </div>
+        </div>
+  
+        <div class="w-full flex justify-between items-center">
+          <div class="flex gap-1 items-center">
+            <i class="bi bi-stop-circle-fill text-blue-500 text-xl"></i>
+            <h4> Elang Rimba Jaya</h4>
+          </div>
+          <button type="'button" class="mt-1"><i class="bi bi-caret-left-square"></i></button> 
+        </div>
+
+      </div>
+    </aside>
+    
+    <main class="w-[86%] flex justify-center">
+      <form action="#" class="w-[43%] my-7 p-6 border shadow-lg">
+        <h1 class="text-2xl font-semibold mb-4">Create New Project</h1>
+        <div class="w-full flex flex-col mb-4">
+          <label for="name" class="font-bold mb-2">Project Name <span class="text-red-600">*</span></label>
+          <input type="text" placeholder="Project Name" 
+            class="px-3 py-1.5 text-sm border border-[#9B9B9B] rounded focus:outline-red-500">
+        </div>
+        <div class="w-full flex flex-col mb-4">
+          <label for="name" class="font-bold mb-2">Status</label>
+          <select id="countries"
+            class="bg-gray-50 border border-gray-600 text-gray-900 text-sm rounded-lg focus:border-red-600 block w-full px-3 py-1.5">
+            <option selected>Choose Status</option>
+            <option value="Implementasi">Implementasi</option>
+            <option value="Uji Fungsi">Uji Fungsi</option>
+            <option value="Selesai">Selesai</option>
+            <option value="Pemeliharaan">Pemeliharaan</option>
+          </select>
+        </div>
+        <div class="w-full flex flex-col mb-4">
+          <label for="name" class="font-bold mb-2">Amount</label>
+          <input type="number" placeholder="Amount" 
+            class="px-3 py-1.5 text-sm border border-[#9B9B9B] rounded focus:outline-red-500">
+        </div>
+        <div class="w-full flex flex-col mb-4">
+          <label for="name" class="font-bold mb-2">Location</label>
+          <input type="text" placeholder="Location" 
+            class="px-3 py-1.5 text-sm border border-[#9B9B9B] rounded focus:outline-red-500">
+        </div>
+        <div class="w-full flex flex-col mb-4">
+          <label for="name" class="font-bold mb-2">Project Manager</label>
+          <select id="countries"
+            class="bg-gray-50 border border-gray-600 text-gray-900 text-sm rounded-lg focus:border-red-600 block w-full px-3 py-1.5">
+            <option selected>Choose Project Manager</option>
+            <option value="Putra Prasetya">Putra Prasetya</option>
+            <option value="Budi Wibowo">Budi Wibowo</option>
+            <option value="Andreas Pratama">Andreas Pratama</option>
+            <option value="Koko Kurniawan">Koko Kurniawan</option>
+          </select>
+        </div>
+        <div class="w-full flex flex-col mb-4">
+          <label for="name" class="font-bold mb-2">Project Type</label>
+          <select id="countries"
+            class="bg-gray-50 border border-gray-600 text-gray-900 text-sm rounded-lg focus:border-red-600 block w-full px-3 py-1.5">
+            <option selected>Choose Project Type</option>
+            <option value="Operation & Maintenance">Operation & Maintenance</option>
+            <option value="Capital-based">Capital-based</option>
+          </select>
+        </div>
+        <div class="w-full flex flex-col mb-4">
+          <label for="name" class="font-bold mb-2">Costumer</label>
+          <select id="countries"
+            class="bg-gray-50 border border-gray-600 text-gray-900 text-sm rounded-lg focus:border-red-600 block w-full px-3 py-1.5">
+            <option selected>Choose Costumer</option>
+            <option value="Kemenhub">Kemenhub</option>
+            <option value="Kemenkeu">Kemenkeu</option>
+            <option value="PUPR">PUPR</option>
+            <option value="Kemdikbud">Kemdikbud</option>
+          </select>
+        </div>
+        <div class="w-full flex flex-col mb-4">
+          <label for="name" class="font-bold mb-2">Start Date</label>
+          <input type="date" class="px-3 py-1.5 text-sm border border-[#9B9B9B] rounded focus:outline-red-500">
+        </div>
+        <div class="w-full flex flex-col mb-4">
+          <label for="name" class="font-bold mb-2">End Date</label>
+          <input type="date" class="px-3 py-1.5 text-sm border border-[#9B9B9B] rounded focus:outline-red-500">
+        </div>
+        <div class="w-full flex flex-col mb-4">
+          <label for="name" class="font-bold mb-2">Weekly Period Start Day</label>
+          <select id="countries"
+            class="bg-gray-50 border border-gray-600 text-gray-900 text-sm rounded-lg focus:border-red-600 block w-full px-3 py-1.5">
+            <option value="Monday" selected>Monday</option>
+            <option value="Tuesday">Tuesday</option>
+            <option value="Wednesday">Wednesday</option>
+            <option value="Thursday">Thursday</option>
+            <option value="Friday">Friday</option>
+          </select>
+        </div>
+        <div class="flex justify-end items-center gap-1">
+          <a href="#" class="text-xs text-blue-700 font-semibold mr-2">Cancel</a>
+          <a href="#" class="text-xs text-white bg-cyan-500 px-2 py-1 border rounded">Submit</a>
+          <a href="#" class="text-xs text-white bg-cyan-500 px-2 py-1 border rounded">Submit & add another</a>
+          <a href="#" class="text-xs text-white bg-cyan-500 px-2 py-1 border rounded">Submit & continue editing</a>
+        </div>
+      </form>
+    </main>
+
+  </div>
+</body>
+</html>
