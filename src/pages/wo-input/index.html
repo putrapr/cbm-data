@@ -67,7 +67,7 @@
             </button>
           </li>
           <li class="me-2" role="presentation">
-            <button class="border-blue-500 text-blue-500 inline-block p-4 border-b rounded-t-lg" id="input-plan-tab" data-tabs-target="#input-plan" type="button" role="tab" aria-controls="input-plan" aria-selected="false">
+            <button class="border-blue-600 text-blue-600 inline-block p-4 border-b rounded-t-lg" id="input-plan-tab" data-tabs-target="#input-plan" type="button" role="tab" aria-controls="input-plan" aria-selected="false">
               Input Plan
             </button>
           </li>
@@ -91,25 +91,25 @@
         <div id="input-plan" role="tabpanel" aria-labelledby="input-plan-tab">
           <div class="flex justify-between items-center">
             <div class="flex items-center">
-              <button type="button" class="border-2 p-1 text-sm text-blue-600 font-bold">
+              <button type="button" class="border border-blue-300 p-1 text-sm text-blue-600 font-bold">
                 <i class="bi bi-chevron-double-left"></i>
               </button>
-              <button type="button" class="border-2 p-1 text-sm text-blue-600 font-bold">
+              <button type="button" class="border border-blue-300 p-1 text-sm text-blue-600 font-bold">
                 <i class="bi bi-calendar-event"></i>
               </button>
-              <button type="button" class="border-2 p-1 text-sm text-blue-600 font-bold">
+              <button type="button" class="border border-blue-300 p-1 text-sm text-blue-600 font-bold">
                 <i class="bi bi-chevron-double-right"></i>
               </button>
               <p class="ml-2 text-sm">Week 3 (10 Jun 2024 - 16 Jun 2024)</p>
             </div>
 
             <div class="flex items-center gap-2">
-              <select class="bg-gray-50 border border-gray-600 text-gray-900 text-xs rounded-lg focus:border-red-600 block px-3 py-1.5">
+              <select class="bg-gray-50 border border-gray-600 text-gray-900 text-xs rounded-lg focus:border-blue-600 focus:outline-blue-500 block px-3 py-1.5">
                 <option value="Group Action" selected>Group Action</option>
                 <option value="A">A</option>
                 <option value="B">B</option>
               </select>
-              <p class="py-1 px-2 bg-cyan-400 border rounded text-white text-sm">Go</p>
+              <a href="#" class="py-1 px-2 bg-blue-300 border border-blue-500 rounded text-sm">Go</a>
               <p class="text-sm mr-1">0 of 9 selected</p>
               <div><i class="bi bi-three-dots"></i></div>
             </div>
@@ -118,220 +118,220 @@
           <table class="w-full border border-slate-400 my-4">
             <thead>
               <tr>
-                <th class="border border-slate-300 bg-gray-100 p-1 w-10"></th>
-                <th class="border border-slate-300 bg-gray-100 p-1 w-10"></th>
-                <th class="text-sm border border-slate-300 bg-gray-100 p-1">Activity Id</th>
-                <th class="text-sm border border-slate-300 bg-gray-100 p-1">Activity Name</th>
-                <th class="text-sm border border-slate-300 bg-gray-100 p-1 w-20">Start Date</th>
-                <th class="text-sm border border-slate-300 bg-gray-100 p-1 w-20">End Date</th>
-                <th class="text-sm border border-slate-300 bg-gray-100 p-1 w-20">Weight Factor %</th>
-                <th class="text-sm border border-slate-300 bg-gray-100 p-1 w-20">Incr. Plan %</th>
-                <th class="text-sm border border-slate-300 bg-gray-100 p-1 w-20">Cumm. Plan %</th>
-                <th class="text-sm border border-slate-300 bg-gray-100 p-1 w-20">Incr. Actual %</th>
-                <th class="text-sm border border-slate-300 bg-gray-100 p-1 w-20">Cumm. Actual %</th>
-                <th class="text-sm border border-slate-300 bg-gray-100 p-1 w-20">Dev. Incr %</th>
-                <th class="text-sm border border-slate-300 bg-gray-100 p-1 w-20">Dev. Plan %</th>
+                <th class="border border-slate-500 bg-gray-300 p-1 w-10"></th>
+                <th class="border border-slate-500 bg-gray-300 p-1 w-10"></th>
+                <th class="text-sm border border-slate-500 bg-gray-300 p-1">Activity Id</th>
+                <th class="text-sm border border-slate-500 bg-gray-300 p-1">Activity Name</th>
+                <th class="text-sm border border-slate-500 bg-gray-300 p-1 w-20">Start Date</th>
+                <th class="text-sm border border-slate-500 bg-gray-300 p-1 w-20">End Date</th>
+                <th class="text-sm border border-slate-500 bg-gray-300 p-1 w-20">Weight Factor %</th>
+                <th class="text-sm border border-slate-500 bg-gray-300 p-1 w-20">Incr. Plan %</th>
+                <th class="text-sm border border-slate-500 bg-gray-300 p-1 w-20">Cumm. Plan %</th>
+                <th class="text-sm border border-slate-500 bg-gray-300 p-1 w-20">Incr. Actual %</th>
+                <th class="text-sm border border-slate-500 bg-gray-300 p-1 w-20">Cumm. Actual %</th>
+                <th class="text-sm border border-slate-500 bg-gray-300 p-1 w-20">Dev. Incr %</th>
+                <th class="text-sm border border-slate-500 bg-gray-300 p-1 w-20">Dev. Plan %</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td class="text-center border border-slate-300 bg-lime-400"><i class="bi bi-grip-horizontal"></i></td>
-                <td class="border border-slate-300 bg-lime-400">
+                <td class="text-center border border-slate-500 bg-lime-400"><i class="bi bi-grip-horizontal"></i></td>
+                <td class="border border-slate-500 bg-lime-400">
                   <div class="flex justify-center items-center">
                     <input id="default-checkbox" type="checkbox" value="" 
                       class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 focus:ring-2">
                   </div>
                 </td>
-                <td class="border border-slate-300 bg-lime-400"></td>
-                <td class="text-sm border border-slate-300 px-2 bg-lime-400">PENAMBAHAN SUMUR DAN POMPA</td>
-                <td class="text-sm text-center border border-slate-300 bg-lime-400">10-06-2024</td>
-                <td class="text-sm text-center border border-slate-300 bg-lime-400">14-06-2024</td>
-                <td class="text-sm text-end border border-slate-300 px-2 bg-lime-400">100.00</td>
-                <td class="text-sm text-end border border-slate-300 px-2 bg-lime-400">0.00</td>
-                <td class="text-sm text-end border border-slate-300 px-2 bg-lime-400">0.00</td>
-                <td class="text-sm text-end border border-slate-300 px-2 bg-lime-400">38.00</td>
-                <td class="text-sm text-end border border-slate-300 px-2 bg-lime-400">38.00</td>
-                <td class="text-sm text-end border border-slate-300 px-2 bg-lime-400">38.00</td>
-                <td class="text-sm text-end border border-slate-300 px-2 bg-lime-400">38.00</td>
+                <td class="border border-slate-500 bg-lime-400"></td>
+                <td class="text-sm border border-slate-500 px-2 bg-lime-400">PENAMBAHAN SUMUR DAN POMPA</td>
+                <td class="text-sm text-center border border-slate-500 bg-lime-400">10-06-2024</td>
+                <td class="text-sm text-center border border-slate-500 bg-lime-400">14-06-2024</td>
+                <td class="text-sm text-end border border-slate-500 px-2 bg-lime-400">100.00</td>
+                <td class="text-sm text-end border border-slate-500 px-2 bg-lime-400">0.00</td>
+                <td class="text-sm text-end border border-slate-500 px-2 bg-lime-400">0.00</td>
+                <td class="text-sm text-end border border-slate-500 px-2 bg-lime-400">38.00</td>
+                <td class="text-sm text-end border border-slate-500 px-2 bg-lime-400">38.00</td>
+                <td class="text-sm text-end border border-slate-500 px-2 bg-lime-400">38.00</td>
+                <td class="text-sm text-end border border-slate-500 px-2 bg-lime-400">38.00</td>
               </tr>
 
               <tr>
-                <td class="text-center border border-slate-300 bg-orange-400"><i class="bi bi-grip-horizontal"></i></td>
-                <td class="border border-slate-300 bg-orange-400">
+                <td class="text-center border border-slate-500 bg-orange-400"><i class="bi bi-grip-horizontal"></i></td>
+                <td class="border border-slate-500 bg-orange-400">
                   <div class="flex justify-center items-center">
                     <input id="default-checkbox" type="checkbox" value="" 
                       class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 focus:ring-2">
                   </div>
                 </td>
-                <td class="border border-slate-300 bg-orange-400"></td>
-                <td class="text-sm border border-slate-300 px-2 bg-orange-400">PERENCANAAN</td>
-                <td class="text-sm text-center border border-slate-300 bg-orange-400">10-06-2024</td>
-                <td class="text-sm text-center border border-slate-300 bg-orange-400">10-06-2024</td>
-                <td class="text-sm text-end border border-slate-300 px-2 bg-orange-400">20.00</td>
-                <td class="text-sm text-end border border-slate-300 px-2 bg-orange-400">0.00</td>
-                <td class="text-sm text-end border border-slate-300 px-2 bg-orange-400">0.00</td>
-                <td class="text-sm text-end border border-slate-300 px-2 bg-orange-400">100.00</td>
-                <td class="text-sm text-end border border-slate-300 px-2 bg-orange-400">100.00</td>
-                <td class="text-sm text-end border border-slate-300 px-2 bg-orange-400">100.00</td>
-                <td class="text-sm text-end border border-slate-300 px-2 bg-orange-400">100.00</td>
+                <td class="border border-slate-500 bg-orange-400"></td>
+                <td class="text-sm border border-slate-500 px-2 bg-orange-400">PERENCANAAN</td>
+                <td class="text-sm text-center border border-slate-500 bg-orange-400">10-06-2024</td>
+                <td class="text-sm text-center border border-slate-500 bg-orange-400">10-06-2024</td>
+                <td class="text-sm text-end border border-slate-500 px-2 bg-orange-400">20.00</td>
+                <td class="text-sm text-end border border-slate-500 px-2 bg-orange-400">0.00</td>
+                <td class="text-sm text-end border border-slate-500 px-2 bg-orange-400">0.00</td>
+                <td class="text-sm text-end border border-slate-500 px-2 bg-orange-400">100.00</td>
+                <td class="text-sm text-end border border-slate-500 px-2 bg-orange-400">100.00</td>
+                <td class="text-sm text-end border border-slate-500 px-2 bg-orange-400">100.00</td>
+                <td class="text-sm text-end border border-slate-500 px-2 bg-orange-400">100.00</td>
               </tr>
 
               <tr>
-                <td class="text-center border border-slate-300 bg-gray-200"><i class="bi bi-grip-horizontal"></i></td>
-                <td class="border border-slate-300">
+                <td class="text-center border border-slate-500 bg-gray-200"><i class="bi bi-grip-horizontal"></i></td>
+                <td class="border border-slate-500">
                   <div class="flex justify-center items-center">
                     <input id="default-checkbox" type="checkbox" value="" 
                       class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 focus:ring-2">
                   </div>
                 </td>
-                <td class="border border-slate-300"></td>
-                <td class="text-sm border border-slate-300 pr-2 pl-4">Survey Lokasi</td>
-                <td class="text-sm text-center border border-slate-300">10-06-2024</td>
-                <td class="text-sm text-center border border-slate-300">10-06-2024</td>
-                <td class="text-sm text-end border border-slate-300 px-2">20.00</td>
-                <td class="text-sm text-end border border-slate-300 px-2">0.00</td>
-                <td class="text-sm text-end border border-slate-300 px-2">0.00</td>
-                <td class="text-sm text-end border border-slate-300 px-2">100.00</td>
-                <td class="text-sm text-end border border-slate-300 px-2">100.00</td>
-                <td class="text-sm text-end border border-slate-300 px-2">100.00</td>
-                <td class="text-sm text-end border border-slate-300 px-2">100.00</td>
+                <td class="border border-slate-500"></td>
+                <td class="text-sm border border-slate-500 pr-2 pl-4">Survey Lokasi</td>
+                <td class="text-sm text-center border border-slate-500">10-06-2024</td>
+                <td class="text-sm text-center border border-slate-500">10-06-2024</td>
+                <td class="text-sm text-end border border-slate-500 px-2">20.00</td>
+                <td class="text-sm text-end border border-slate-500 px-2">0.00</td>
+                <td class="text-sm text-end border border-slate-500 px-2">0.00</td>
+                <td class="text-sm text-end border border-slate-500 px-2">100.00</td>
+                <td class="text-sm text-end border border-slate-500 px-2">100.00</td>
+                <td class="text-sm text-end border border-slate-500 px-2">100.00</td>
+                <td class="text-sm text-end border border-slate-500 px-2">100.00</td>
               </tr>
 
               <tr>
-                <td class="text-center border border-slate-300 bg-orange-400"><i class="bi bi-grip-horizontal"></i></td>
-                <td class="border border-slate-300 bg-orange-400">
+                <td class="text-center border border-slate-500 bg-orange-400"><i class="bi bi-grip-horizontal"></i></td>
+                <td class="border border-slate-500 bg-orange-400">
                   <div class="flex justify-center items-center">
                     <input id="default-checkbox" type="checkbox" value="" 
                       class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 focus:ring-2">
                   </div>
                 </td>
-                <td class="border border-slate-300 bg-orange-400"></td>
-                <td class="text-sm px-2 border border-slate-300 bg-orange-400">PENGERJAAN</td>
-                <td class="text-sm text-center border border-slate-300 bg-orange-400">11-06-2024</td>
-                <td class="text-sm text-center border border-slate-300 bg-orange-400">13-06-2024</td>
-                <td class="text-sm text-end px-2 border border-slate-300 bg-orange-400">60.00</td>
-                <td class="text-sm text-end px-2 border border-slate-300 bg-orange-400">0.00</td>
-                <td class="text-sm text-end px-2 border border-slate-300 bg-orange-400">0.00</td>
-                <td class="text-sm text-end px-2 border border-slate-300 bg-orange-400">30.00</td>
-                <td class="text-sm text-end px-2 border border-slate-300 bg-orange-400">30.00</td>
-                <td class="text-sm text-end px-2 border border-slate-300 bg-orange-400">30.00</td>
-                <td class="text-sm text-end px-2 border border-slate-300 bg-orange-400">30.00</td>
+                <td class="border border-slate-500 bg-orange-400"></td>
+                <td class="text-sm px-2 border border-slate-500 bg-orange-400">PENGERJAAN</td>
+                <td class="text-sm text-center border border-slate-500 bg-orange-400">11-06-2024</td>
+                <td class="text-sm text-center border border-slate-500 bg-orange-400">13-06-2024</td>
+                <td class="text-sm text-end px-2 border border-slate-500 bg-orange-400">60.00</td>
+                <td class="text-sm text-end px-2 border border-slate-500 bg-orange-400">0.00</td>
+                <td class="text-sm text-end px-2 border border-slate-500 bg-orange-400">0.00</td>
+                <td class="text-sm text-end px-2 border border-slate-500 bg-orange-400">30.00</td>
+                <td class="text-sm text-end px-2 border border-slate-500 bg-orange-400">30.00</td>
+                <td class="text-sm text-end px-2 border border-slate-500 bg-orange-400">30.00</td>
+                <td class="text-sm text-end px-2 border border-slate-500 bg-orange-400">30.00</td>
               </tr>
 
               <tr>
-                <td class="text-center border border-slate-300 bg-gray-200"><i class="bi bi-grip-horizontal"></i></td>
-                <td class="border border-slate-300">
+                <td class="text-center border border-slate-500 bg-gray-200"><i class="bi bi-grip-horizontal"></i></td>
+                <td class="border border-slate-500">
                   <div class="flex justify-center items-center">
                     <input id="default-checkbox" type="checkbox" value="" 
                       class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 focus:ring-2">
                   </div>
                 </td>
-                <td class="border border-slate-300"></td>
-                <td class="text-sm border border-slate-300 pr-2 pl-4">Penggalian Sumur</td>
-                <td class="text-sm text-center border border-slate-300">11-06-2024</td>
-                <td class="text-sm text-center border border-slate-300">12-06-2024</td>
-                <td class="text-sm text-end border border-slate-300 px-2">20.00</td>
-                <td class="text-sm text-end border border-slate-300 px-2">0.00</td>
-                <td class="text-sm text-end border border-slate-300 px-2">0.00</td>
-                <td class="text-sm text-end border border-slate-300 px-2">40.00</td>
-                <td class="text-sm text-end border border-slate-300 px-2">40.00</td>
-                <td class="text-sm text-end border border-slate-300 px-2">40.00</td>
-                <td class="text-sm text-end border border-slate-300 px-2">40.00</td>
+                <td class="border border-slate-500"></td>
+                <td class="text-sm border border-slate-500 pr-2 pl-4">Penggalian Sumur</td>
+                <td class="text-sm text-center border border-slate-500">11-06-2024</td>
+                <td class="text-sm text-center border border-slate-500">12-06-2024</td>
+                <td class="text-sm text-end border border-slate-500 px-2">20.00</td>
+                <td class="text-sm text-end border border-slate-500 px-2">0.00</td>
+                <td class="text-sm text-end border border-slate-500 px-2">0.00</td>
+                <td class="text-sm text-end border border-slate-500 px-2">40.00</td>
+                <td class="text-sm text-end border border-slate-500 px-2">40.00</td>
+                <td class="text-sm text-end border border-slate-500 px-2">40.00</td>
+                <td class="text-sm text-end border border-slate-500 px-2">40.00</td>
               </tr>
 
               <tr>
-                <td class="text-center border border-slate-300 bg-gray-200"><i class="bi bi-grip-horizontal"></i></td>
-                <td class="border border-slate-300">
+                <td class="text-center border border-slate-500 bg-gray-200"><i class="bi bi-grip-horizontal"></i></td>
+                <td class="border border-slate-500">
                   <div class="flex justify-center items-center">
                     <input id="default-checkbox" type="checkbox" value="" 
                       class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 focus:ring-2">
                   </div>
                 </td>
-                <td class="border border-slate-300"></td>
-                <td class="text-sm border border-slate-300 pr-2 pl-4">Pembelian Pompa</td>
-                <td class="text-sm text-center border border-slate-300">11-06-2024</td>
-                <td class="text-sm text-center border border-slate-300">11-06-2024</td>
-                <td class="text-sm text-end border border-slate-300 px-2">20.00</td>
-                <td class="text-sm text-end border border-slate-300 px-2">0.00</td>
-                <td class="text-sm text-end border border-slate-300 px-2">0.00</td>
-                <td class="text-sm text-end border border-slate-300 px-2">0.00</td>
-                <td class="text-sm text-end border border-slate-300 px-2">0.00</td>
-                <td class="text-sm text-end border border-slate-300 px-2">0.00</td>
-                <td class="text-sm text-end border border-slate-300 px-2">0.00</td>
+                <td class="border border-slate-500"></td>
+                <td class="text-sm border border-slate-500 pr-2 pl-4">Pembelian Pompa</td>
+                <td class="text-sm text-center border border-slate-500">11-06-2024</td>
+                <td class="text-sm text-center border border-slate-500">11-06-2024</td>
+                <td class="text-sm text-end border border-slate-500 px-2">20.00</td>
+                <td class="text-sm text-end border border-slate-500 px-2">0.00</td>
+                <td class="text-sm text-end border border-slate-500 px-2">0.00</td>
+                <td class="text-sm text-end border border-slate-500 px-2">0.00</td>
+                <td class="text-sm text-end border border-slate-500 px-2">0.00</td>
+                <td class="text-sm text-end border border-slate-500 px-2">0.00</td>
+                <td class="text-sm text-end border border-slate-500 px-2">0.00</td>
               </tr>
 
               <tr>
-                <td class="text-center border border-slate-300 bg-gray-200"><i class="bi bi-grip-horizontal"></i></td>
-                <td class="border border-slate-300">
+                <td class="text-center border border-slate-500 bg-gray-200"><i class="bi bi-grip-horizontal"></i></td>
+                <td class="border border-slate-500">
                   <div class="flex justify-center items-center">
                     <input id="default-checkbox" type="checkbox" value="" 
                       class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 focus:ring-2">
                   </div>
                 </td>
-                <td class="border border-slate-300"></td>
-                <td class="text-sm border border-slate-300 pr-2 pl-4">Pemasangan Pompa</td>
-                <td class="text-sm text-center border border-slate-300">13-06-2024</td>
-                <td class="text-sm text-center border border-slate-300">13-06-2024</td>
-                <td class="text-sm text-end border border-slate-300 px-2">20.00</td>
-                <td class="text-sm text-end border border-slate-300 px-2">0.00</td>
-                <td class="text-sm text-end border border-slate-300 px-2">0.00</td>
-                <td class="text-sm text-end border border-slate-300 px-2">0.00</td>
-                <td class="text-sm text-end border border-slate-300 px-2">0.00</td>
-                <td class="text-sm text-end border border-slate-300 px-2">0.00</td>
-                <td class="text-sm text-end border border-slate-300 px-2">0.00</td>
+                <td class="border border-slate-500"></td>
+                <td class="text-sm border border-slate-500 pr-2 pl-4">Pemasangan Pompa</td>
+                <td class="text-sm text-center border border-slate-500">13-06-2024</td>
+                <td class="text-sm text-center border border-slate-500">13-06-2024</td>
+                <td class="text-sm text-end border border-slate-500 px-2">20.00</td>
+                <td class="text-sm text-end border border-slate-500 px-2">0.00</td>
+                <td class="text-sm text-end border border-slate-500 px-2">0.00</td>
+                <td class="text-sm text-end border border-slate-500 px-2">0.00</td>
+                <td class="text-sm text-end border border-slate-500 px-2">0.00</td>
+                <td class="text-sm text-end border border-slate-500 px-2">0.00</td>
+                <td class="text-sm text-end border border-slate-500 px-2">0.00</td>
               </tr>
 
               <tr>
-                <td class="text-center border border-slate-300 bg-gray-200 bg-orange-400"><i class="bi bi-grip-horizontal"></i></td>
-                <td class="border border-slate-300 bg-orange-400">
+                <td class="text-center border border-slate-500 bg-orange-400"><i class="bi bi-grip-horizontal"></i></td>
+                <td class="border border-slate-500 bg-orange-400">
                   <div class="flex justify-center items-center">
                     <input id="default-checkbox" type="checkbox" value="" 
                       class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 focus:ring-2">
                   </div>
                 </td>
-                <td class="border border-slate-300 bg-orange-400"></td>
-                <td class="text-sm border border-slate-300 px-2 bg-orange-400">TESTING</td>
-                <td class="text-sm text-center border border-slate-300 bg-orange-400">14-06-2024</td>
-                <td class="text-sm text-center border border-slate-300 bg-orange-400">14-06-2024</td>
-                <td class="text-sm text-end border border-slate-300 px-2 bg-orange-400">20.00</td>
-                <td class="text-sm text-end border border-slate-300 px-2 bg-orange-400">0.00</td>
-                <td class="text-sm text-end border border-slate-300 px-2 bg-orange-400">0.00</td>
-                <td class="text-sm text-end border border-slate-300 px-2 bg-orange-400">0.00</td>
-                <td class="text-sm text-end border border-slate-300 px-2 bg-orange-400">0.00</td>
-                <td class="text-sm text-end border border-slate-300 px-2 bg-orange-400">0.00</td>
-                <td class="text-sm text-end border border-slate-300 px-2 bg-orange-400">0.00</td>
+                <td class="border border-slate-500 bg-orange-400"></td>
+                <td class="text-sm border border-slate-500 px-2 bg-orange-400">TESTING</td>
+                <td class="text-sm text-center border border-slate-500 bg-orange-400">14-06-2024</td>
+                <td class="text-sm text-center border border-slate-500 bg-orange-400">14-06-2024</td>
+                <td class="text-sm text-end border border-slate-500 px-2 bg-orange-400">20.00</td>
+                <td class="text-sm text-end border border-slate-500 px-2 bg-orange-400">0.00</td>
+                <td class="text-sm text-end border border-slate-500 px-2 bg-orange-400">0.00</td>
+                <td class="text-sm text-end border border-slate-500 px-2 bg-orange-400">0.00</td>
+                <td class="text-sm text-end border border-slate-500 px-2 bg-orange-400">0.00</td>
+                <td class="text-sm text-end border border-slate-500 px-2 bg-orange-400">0.00</td>
+                <td class="text-sm text-end border border-slate-500 px-2 bg-orange-400">0.00</td>
               </tr>
 
               <tr>
-                <td class="text-center border border-slate-300 bg-gray-200"><i class="bi bi-grip-horizontal"></i></td>
-                <td class="border border-slate-300">
+                <td class="text-center border border-slate-500 bg-gray-200"><i class="bi bi-grip-horizontal"></i></td>
+                <td class="border border-slate-500">
                   <div class="flex justify-center items-center">
                     <input id="default-checkbox" type="checkbox" value="" 
                       class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 focus:ring-2">
                   </div>
                 </td>
-                <td class="border border-slate-300"></td>
-                <td class="text-sm  border border-slate-300 pr-2 pl-4">Uji Fungsi</td>
-                <td class="text-sm text-center border border-slate-300">14-06-2024</td>
-                <td class="text-sm text-center border border-slate-300">14-06-2024</td>
-                <td class="text-sm text-end border border-slate-300 px-2">20.00</td>
-                <td class="text-sm text-end border border-slate-300 px-2">0.00</td>
-                <td class="text-sm text-end border border-slate-300 px-2">0.00</td>
-                <td class="text-sm text-end border border-slate-300 px-2">0.00</td>
-                <td class="text-sm text-end border border-slate-300 px-2">0.00</td>
-                <td class="text-sm text-end border border-slate-300 px-2">0.00</td>
-                <td class="text-sm text-end border border-slate-300 px-2">0.00</td>
+                <td class="border border-slate-500"></td>
+                <td class="text-sm  border border-slate-500 pr-2 pl-4">Uji Fungsi</td>
+                <td class="text-sm text-center border border-slate-500">14-06-2024</td>
+                <td class="text-sm text-center border border-slate-500">14-06-2024</td>
+                <td class="text-sm text-end border border-slate-500 px-2">20.00</td>
+                <td class="text-sm text-end border border-slate-500 px-2">0.00</td>
+                <td class="text-sm text-end border border-slate-500 px-2">0.00</td>
+                <td class="text-sm text-end border border-slate-500 px-2">0.00</td>
+                <td class="text-sm text-end border border-slate-500 px-2">0.00</td>
+                <td class="text-sm text-end border border-slate-500 px-2">0.00</td>
+                <td class="text-sm text-end border border-slate-500 px-2">0.00</td>
               </tr>
 
               <tr>                
-                <td class="text-sm text-end border border-slate-300 px-2" colspan="6">Grand Total</td>
-                <td class="text-sm text-end border border-slate-300 px-2">20.00</td>
-                <td class="text-sm text-end border border-slate-300 px-2">0.00</td>
-                <td class="text-sm text-end border border-slate-300 px-2">0.00</td>
-                <td class="text-sm text-end border border-slate-300 px-2">0.00</td>
-                <td class="text-sm text-end border border-slate-300 px-2">0.00</td>
-                <td class="text-sm text-end border border-slate-300 px-2">0.00</td>
-                <td class="text-sm text-end border border-slate-300 px-2">0.00</td>
+                <td class="text-sm text-end border border-slate-500 px-2" colspan="6">Grand Total</td>
+                <td class="text-sm text-end border border-slate-500 px-2">20.00</td>
+                <td class="text-sm text-end border border-slate-500 px-2">0.00</td>
+                <td class="text-sm text-end border border-slate-500 px-2">0.00</td>
+                <td class="text-sm text-end border border-slate-500 px-2">0.00</td>
+                <td class="text-sm text-end border border-slate-500 px-2">0.00</td>
+                <td class="text-sm text-end border border-slate-500 px-2">0.00</td>
+                <td class="text-sm text-end border border-slate-500 px-2">0.00</td>
               </tr>
             </tbody>
           </table>

@@ -60,7 +60,7 @@
       <div class="mb-4 border-b border-gray-200">
         <ul class="flex flex-wrap -mb-px text-sm font-medium text-center" id="default-tab" data-tabs-toggle="#tab-content" role="tablist">
           <li class="me-2" role="presentation">
-            <button class="border-blue-500 text-blue-500 inline-block p-4 border-b rounded-t-lg" id="wo-tab" data-tabs-target="#wo" type="button" role="tab" aria-controls="wo" aria-selected="false">Work Order</button>
+            <button class="border-blue-600 text-blue-600 inline-block p-4 border-b rounded-t-lg" id="wo-tab" data-tabs-target="#wo" type="button" role="tab" aria-controls="wo" aria-selected="false">Work Order</button>
           </li>
           <li class="me-2" role="presentation">
             <button class="inline-block p-4 border-b rounded-t-lg" id="ph-tab" data-tabs-target="#ph" type="button" role="tab" aria-controls="ph" aria-selected="false">Project Health</button>
@@ -79,12 +79,12 @@
         <div id="wo" role="tabpanel" aria-labelledby="wo-tab">
           <!-- Buttons -->
           <section class="flex justify-between mb-4">
-            <a href="../wo-create" class="p-1 text-sm bg-blue-300 border border-blue-300 rounded">
+            <a href="../wo-create" class="p-1 text-sm bg-blue-300 border border-blue-500 rounded">
               <i class="bi bi-plus-lg"></i> New Work Order
             </a>
-            <div class="flex w-48">
-              <input type="search" class="w-full p-1 text-sm bg-gray-200 border rounded-l">
-              <button class="bg-blue-300 w-8 border rounded-r font-semibold"><i class="bi bi-search"></i></button>
+            <div class="flex w-48 border border-blue-500 rounded">
+              <input type="search" class="w-full p-1 text-sm bg-gray-200 border rounded-l focus:outline-none">
+              <button class="bg-blue-300 w-8 border rounded-r font-bold"><i class="bi bi-search"></i></button>
             </div>        
           </section>
 
@@ -92,61 +92,61 @@
           <table class="w-full border border-slate-400 mb-4">
             <thead>
               <tr>
-                <th class="border border-slate-300 p-1 bg-gray-200">No</th>
-                <th class="border border-slate-300 p-1 bg-gray-200">Title</th>
-                <th class="border border-slate-300 p-1 bg-gray-200">WO No</th>
-                <th class="border border-slate-300 p-1 bg-gray-200">Start Date</th>
-                <th class="border border-slate-300 p-1 bg-gray-200">End Date</th>
-                <th class="border border-slate-300 p-1 bg-gray-200">Payment Status</th>
-                <th class="border border-slate-300 p-1 bg-gray-200">Value</th>
-                <th class="border border-slate-300 p-1 bg-gray-200">Progress Status</th>
-                <th class="border border-slate-300 p-1 bg-gray-200">Progress Complete (%)</th>
+                <th class="border border-slate-500 p-1 bg-gray-300">No</th>
+                <th class="border border-slate-500 p-1 bg-gray-300">Title</th>
+                <th class="border border-slate-500 p-1 bg-gray-300">WO No</th>
+                <th class="border border-slate-500 p-1 bg-gray-300">Start Date</th>
+                <th class="border border-slate-500 p-1 bg-gray-300">End Date</th>
+                <th class="border border-slate-500 p-1 bg-gray-300">Payment Status</th>
+                <th class="border border-slate-500 p-1 bg-gray-300">Value</th>
+                <th class="border border-slate-500 p-1 bg-gray-300">Progress Status</th>
+                <th class="border border-slate-500 p-1 bg-gray-300">Progress Complete (%)</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td class="border border-slate-300 p-1 text-center">1</td>
-                <td class="border border-slate-300 p-1">Penambahan Sumur dan Pompa</td>
-                <td class="border border-slate-300 p-1">WO-2024-001</td>
-                <td class="border border-slate-300 p-1">01-06-2024</td>
-                <td class="border border-slate-300 p-1">30-06-2024</td>
-                <td class="border border-slate-300 p-1">Paid</td>
-                <td class="border border-slate-300 p-1">Rp.100,000,000.00</td>
-                <td class="border border-slate-300 p-1">Selesai</td>
-                <td class="border border-slate-300 p-1 text-end">100.00%</td>
+                <td class="border border-slate-500 p-1 text-center">1</td>
+                <td class="border border-slate-500 p-1">Penambahan Sumur dan Pompa</td>
+                <td class="border border-slate-500 p-1">WO-2024-001</td>
+                <td class="border border-slate-500 p-1">01-06-2024</td>
+                <td class="border border-slate-500 p-1">30-06-2024</td>
+                <td class="border border-slate-500 p-1">Paid</td>
+                <td class="border border-slate-500 p-1">Rp.100,000,000.00</td>
+                <td class="border border-slate-500 p-1">Selesai</td>
+                <td class="border border-slate-500 p-1 text-end">100.00%</td>
               </tr>
               <tr>
-                <td class="border border-slate-300 p-1 text-center">2</td>
-                <td class="border border-slate-300 p-1">Perbaikan Jembatan</td>
-                <td class="border border-slate-300 p-1">WO-2024-002</td>
-                <td class="border border-slate-300 p-1">03-06-2024</td>
-                <td class="border border-slate-300 p-1">07-06-2024</td>
-                <td class="border border-slate-300 p-1">Unpaid</td>
-                <td class="border border-slate-300 p-1">Rp.65,000,000.00</td>
-                <td class="border border-slate-300 p-1">Selesai</td>
-                <td class="border border-slate-300 p-1 text-end">100.00%</td>
+                <td class="border border-slate-500 p-1 text-center">2</td>
+                <td class="border border-slate-500 p-1">Perbaikan Jembatan</td>
+                <td class="border border-slate-500 p-1">WO-2024-002</td>
+                <td class="border border-slate-500 p-1">03-06-2024</td>
+                <td class="border border-slate-500 p-1">07-06-2024</td>
+                <td class="border border-slate-500 p-1">Unpaid</td>
+                <td class="border border-slate-500 p-1">Rp.65,000,000.00</td>
+                <td class="border border-slate-500 p-1">Selesai</td>
+                <td class="border border-slate-500 p-1 text-end">100.00%</td>
               </tr>
               <tr>
-                <td class="border border-slate-300 p-1 text-center">3</td>
-                <td class="border border-slate-300 p-1">Pengadaan Peralatan Kantor</td>
-                <td class="border border-slate-300 p-1">WO-2024-003</td>
-                <td class="border border-slate-300 p-1">17-06-2024</td>
-                <td class="border border-slate-300 p-1">28-06-2024</td>
-                <td class="border border-slate-300 p-1">Unpaid</td>
-                <td class="border border-slate-300 p-1">Rp.15,000,000.00</td>
-                <td class="border border-slate-300 p-1">Uji Fungsi</td>
-                <td class="border border-slate-300 p-1 text-end">85.00%</td>
+                <td class="border border-slate-500 p-1 text-center">3</td>
+                <td class="border border-slate-500 p-1">Pengadaan Peralatan Kantor</td>
+                <td class="border border-slate-500 p-1">WO-2024-003</td>
+                <td class="border border-slate-500 p-1">17-06-2024</td>
+                <td class="border border-slate-500 p-1">28-06-2024</td>
+                <td class="border border-slate-500 p-1">Unpaid</td>
+                <td class="border border-slate-500 p-1">Rp.15,000,000.00</td>
+                <td class="border border-slate-500 p-1">Uji Fungsi</td>
+                <td class="border border-slate-500 p-1 text-end">85.00%</td>
               </tr>
               <tr>
-                <td class="border border-slate-300 p-1 text-center">4</td>
-                <td class="border border-slate-300 p-1">Perbaikan Jaringan CCTV</td>
-                <td class="border border-slate-300 p-1">WO-2024-004</td>
-                <td class="border border-slate-300 p-1">24-06-2024</td>
-                <td class="border border-slate-300 p-1">31-07-2024</td>
-                <td class="border border-slate-300 p-1">Unpaid</td>
-                <td class="border border-slate-300 p-1">Rp.25,000,000.00</td>
-                <td class="border border-slate-300 p-1">Analisis & Desain</td>
-                <td class="border border-slate-300 p-1 text-end">18.00%</td>
+                <td class="border border-slate-500 p-1 text-center">4</td>
+                <td class="border border-slate-500 p-1">Perbaikan Jaringan CCTV</td>
+                <td class="border border-slate-500 p-1">WO-2024-004</td>
+                <td class="border border-slate-500 p-1">24-06-2024</td>
+                <td class="border border-slate-500 p-1">31-07-2024</td>
+                <td class="border border-slate-500 p-1">Unpaid</td>
+                <td class="border border-slate-500 p-1">Rp.25,000,000.00</td>
+                <td class="border border-slate-500 p-1">Analisis & Desain</td>
+                <td class="border border-slate-500 p-1 text-end">18.00%</td>
               </tr>
             </tbody>
           </table>

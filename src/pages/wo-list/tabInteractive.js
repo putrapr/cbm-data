@@ -11,12 +11,12 @@ document.addEventListener('DOMContentLoaded', function () {
       })
 
       tabs.forEach(t => {
-        t.classList.remove('border-blue-500', 'text-blue-500')
+        t.classList.remove('border-blue-600', 'text-blue-600')
         t.setAttribute('aria-selected', 'false')
       })
 
       target.classList.remove('hidden')
-      tab.classList.add('border-blue-500', 'text-blue-500')
+      tab.classList.add('border-blue-600', 'text-blue-600')
       tab.setAttribute('aria-selected', 'true')
     })
   })

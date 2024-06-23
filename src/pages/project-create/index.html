@@ -50,16 +50,16 @@
     </aside>
     
     <main class="w-[86%] flex justify-center">
-      <form action="#" class="w-[43%] my-7 p-6 border shadow-lg">
+      <form action="#" class="w-[43%] mt-7 mb-16 p-6 border shadow-xl">
         <h1 class="text-2xl font-semibold mb-4">Create New Project</h1>
         <div class="w-full flex flex-col mb-4">
           <label for="name" class="font-bold mb-2">Project Name <span class="text-red-600">*</span></label>
           <input type="text" placeholder="Project Name" 
-            class="px-3 py-1.5 text-sm border border-[#9B9B9B] rounded focus:outline-red-500">
+            class="px-3 py-1.5 text-sm border border-[#9B9B9B] rounded focus:outline-blue-500">
         </div>
         <div class="w-full flex flex-col mb-4">
           <label for="name" class="font-bold mb-2">Status</label>
-          <select class="bg-gray-50 border border-gray-600 text-gray-900 text-sm rounded-lg focus:border-red-600 block w-full px-3 py-1.5">
+          <select class="bg-gray-50 border border-gray-600 text-gray-900 text-sm rounded-lg focus:border-blue-600 focus:outline-blue-500 block w-full px-3 py-1.5">
             <option selected>Choose Status</option>
             <option value="Implementasi">Implementasi</option>
             <option value="Uji Fungsi">Uji Fungsi</option>
@@ -70,16 +70,16 @@
         <div class="w-full flex flex-col mb-4">
           <label for="name" class="font-bold mb-2">Amount</label>
           <input type="number" placeholder="Amount" 
-            class="px-3 py-1.5 text-sm border border-[#9B9B9B] rounded focus:outline-red-500">
+            class="px-3 py-1.5 text-sm border border-[#9B9B9B] rounded focus:outline-blue-500">
         </div>
         <div class="w-full flex flex-col mb-4">
           <label for="name" class="font-bold mb-2">Location</label>
           <input type="text" placeholder="Location" 
-            class="px-3 py-1.5 text-sm border border-[#9B9B9B] rounded focus:outline-red-500">
+            class="px-3 py-1.5 text-sm border border-[#9B9B9B] rounded focus:outline-blue-500">
         </div>
         <div class="w-full flex flex-col mb-4">
           <label for="name" class="font-bold mb-2">Project Manager</label>
-          <select class="bg-gray-50 border border-gray-600 text-gray-900 text-sm rounded-lg focus:border-red-600 block w-full px-3 py-1.5">
+          <select class="bg-gray-50 border border-gray-600 text-gray-900 text-sm rounded-lg focus:border-blue-600 focus:outline-blue-500 block w-full px-3 py-1.5">
             <option selected>Choose Project Manager</option>
             <option value="Putra Prasetya">Putra Prasetya</option>
             <option value="Budi Wibowo">Budi Wibowo</option>
@@ -89,7 +89,7 @@
         </div>
         <div class="w-full flex flex-col mb-4">
           <label for="name" class="font-bold mb-2">Project Type</label>
-          <select class="bg-gray-50 border border-gray-600 text-gray-900 text-sm rounded-lg focus:border-red-600 block w-full px-3 py-1.5">
+          <select class="bg-gray-50 border border-gray-600 text-gray-900 text-sm rounded-lg focus:border-blue-600 focus:outline-blue-500 block w-full px-3 py-1.5">
             <option selected>Choose Project Type</option>
             <option value="Operation & Maintenance">Operation & Maintenance</option>
             <option value="Capital-based">Capital-based</option>
@@ -97,7 +97,7 @@
         </div>
         <div class="w-full flex flex-col mb-4">
           <label for="name" class="font-bold mb-2">Costumer</label>
-          <select class="bg-gray-50 border border-gray-600 text-gray-900 text-sm rounded-lg focus:border-red-600 block w-full px-3 py-1.5">
+          <select class="bg-gray-50 border border-gray-600 text-gray-900 text-sm rounded-lg focus:border-blue-600 focus:outline-blue-500 block w-full px-3 py-1.5">
             <option selected>Choose Costumer</option>
             <option value="Kemenhub">Kemenhub</option>
             <option value="Kemenkeu">Kemenkeu</option>
@@ -107,15 +107,15 @@
         </div>
         <div class="w-full flex flex-col mb-4">
           <label for="name" class="font-bold mb-2">Start Date</label>
-          <input type="date" class="px-3 py-1.5 text-sm border border-[#9B9B9B] rounded focus:outline-red-500">
+          <input type="date" class="px-3 py-1.5 text-sm border border-[#9B9B9B] rounded focus:outline-blue-500">
         </div>
         <div class="w-full flex flex-col mb-4">
           <label for="name" class="font-bold mb-2">End Date</label>
-          <input type="date" class="px-3 py-1.5 text-sm border border-[#9B9B9B] rounded focus:outline-red-500">
+          <input type="date" class="px-3 py-1.5 text-sm border border-[#9B9B9B] rounded focus:outline-blue-500">
         </div>
         <div class="w-full flex flex-col mb-4">
           <label for="name" class="font-bold mb-2">Weekly Period Start Day</label>
-          <select class="bg-gray-50 border border-gray-600 text-gray-900 text-sm rounded-lg focus:border-red-600 block w-full px-3 py-1.5">
+          <select class="bg-gray-50 border border-gray-600 text-gray-900 text-sm rounded-lg focus:border-blue-600 focus:outline-blue-500 block w-full px-3 py-1.5">
             <option value="Monday" selected>Monday</option>
             <option value="Tuesday">Tuesday</option>
             <option value="Wednesday">Wednesday</option>
@@ -123,11 +123,13 @@
             <option value="Friday">Friday</option>
           </select>
         </div>
-        <div class="flex justify-end items-center gap-1">
-          <a href="#" class="text-xs text-blue-700 font-semibold mr-2">Cancel</a>
-          <a href="../wo-list" class="text-xs text-white bg-cyan-500 px-2 py-1 border rounded">Submit</a>
-          <a href="#" class="text-xs text-white bg-cyan-500 px-2 py-1 border rounded">Submit & add another</a>
-          <a href="#" class="text-xs text-white bg-cyan-500 px-2 py-1 border rounded">Submit & continue editing</a>
+        <div class="flex justify-between items-center gap-1">
+          <a href="../project-list/table" class="text-xs text-blue-800 font-semibold mr-2">Cancel</a>
+          <div>
+            <a href="../wo-list" class="text-xs text-white bg-blue-600 px-2 py-1 border rounded">Submit</a>
+            <a href="#" class="text-xs text-white bg-blue-600 px-2 py-1 border rounded">Submit & add another</a>
+            <a href="#" class="text-xs text-white bg-blue-600 px-2 py-1 border rounded">Submit & continue editing</a>
+          </div>
         </div>
       </form>
     </main>
